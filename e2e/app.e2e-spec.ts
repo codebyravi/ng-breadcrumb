@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('ng5-breadcrumb App', () => {
+describe('ng-breadcrumb App', () => {
   let page: AppPage;
 
   beforeEach(() => {

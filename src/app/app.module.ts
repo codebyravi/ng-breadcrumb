@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { Component1, Component2, Component3, Component4 } from './app.component';
 import { routingModule, appRoutingProviders }  from './app.routing';
 
-import { Ng5BreadcrumbModule } from './components/breadcrumb/breadcrumb.module';
+import { NgBreadcrumbModule } from './components/breadcrumb/breadcrumb.module';
 
 
 @NgModule({
@@ -19,7 +19,7 @@ import { Ng5BreadcrumbModule } from './components/breadcrumb/breadcrumb.module';
   imports: [
     BrowserModule,
     routingModule,
-    Ng5BreadcrumbModule.forRoot()    
+    NgBreadcrumbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

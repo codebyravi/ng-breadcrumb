@@ -17,15 +17,15 @@ Optionally uses bootstrap.css (v 3.x.x) for styling of some elements (although t
 ## Install
 Install the module via npm:
 
-    npm install ng5-breadcrumb --save
+    npm install ng-breadcrumb --save
 
 ## Usage
 Import the this module into your module using forRoot()
 
-    import {Ng5BreadcrumbModule} from 'ng5-breadcrumb';
+    import {NgBreadcrumbModule} from 'ng-breadcrumb';
 
 	@NgModule({
-        imports: [Ng5BreadcrumbModule.forRoot()]
+        imports: [NgBreadcrumbModule.forRoot()]
     })
     export class AppModule {
         ...
@@ -33,10 +33,10 @@ Import the this module into your module using forRoot()
 
 Alternatively you can import the this module into your module and manually provide its service
 
-	import {ng5BreadcrumbModule, BreadcrumbService} from 'ng5-breadcrumb';
+	import {NgBreadcrumbModule, BreadcrumbService} from 'ng-breadcrumb';
 
 	@NgModule({
-        imports: [ng5BreadcrumbModule],
+        imports: [NgBreadcrumbModule],
         providers: [BreadcrumbService]
     })
     export class AppModule {

@@ -18,10 +18,10 @@ export * from './breadcrumb.service';
     BreadcrumbComponent
   ]
 })
-export class Ng5BreadcrumbModule {
+export class NgBreadcrumbModule {
   static forRoot(): ModuleWithProviders {
     return {
-      ngModule: Ng5BreadcrumbModule,
+      ngModule: NgBreadcrumbModule,
       providers: [BreadcrumbService]
     };
   }
