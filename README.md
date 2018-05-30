@@ -1,7 +1,6 @@
-# ng5-breadcrumb
-
-This component is a fork from https://github.com/gmostert/ng5-breadcrumb.
-The component has been updated to work with Angular 5 and Angular CLI 1.5.
+# ng-breadcrumb
+This component is a fork from https://github.com/akiocloud/ng-breadcrumb which is a fork of https://github.com/gmostert/ng2-breadcrumb.
+The component has been updated to work with Angular 6 and Angular CLI 6.
 
 This component generates a breadcrumb trail, as you navigate to child routes using the @angular/router. It interprets the browser URL of a navigate request, 
 in the same way the component router does to match a path to a specific component, to build up a hierarchy of available parent/child routes for that destination.
