@@ -50,7 +50,6 @@ export class BreadcrumbService {
      * Show the friendly name for a given route (url). If no match is found the url (without the leading '/') is shown.
      *
      * @param route
-     * @returns {*}
      */
     getFriendlyNameForRoute(route: string): string {
         let routeEnd = route.substr(route.lastIndexOf('/')+1, route.length);

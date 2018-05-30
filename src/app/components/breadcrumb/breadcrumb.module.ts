@@ -1,4 +1,4 @@
-import { NgModule, ModuleWithProviders } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { BreadcrumbComponent } from './breadcrumb.component';
@@ -16,13 +16,8 @@ export * from './breadcrumb.service';
   ],
   exports: [
     BreadcrumbComponent
-  ]
+  ],
+  providers: [BreadcrumbService]
 })
 export class NgBreadcrumbModule {
-  static forRoot(): ModuleWithProviders {
-    return {
-      ngModule: NgBreadcrumbModule,
-      providers: [BreadcrumbService]
-    };
-  }
 }

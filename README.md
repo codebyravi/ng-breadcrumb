@@ -21,24 +21,12 @@ Install the module via npm:
     npm install ng-breadcrumb --save
 
 ## Usage
-Import the this module into your module using forRoot()
+Import the the module
 
     import {NgBreadcrumbModule} from 'ng-breadcrumb';
 
 	@NgModule({
-        imports: [NgBreadcrumbModule.forRoot()]
-    })
-    export class AppModule {
-        ...
-    }
-
-Alternatively you can import the this module into your module and manually provide its service
-
-	import {NgBreadcrumbModule, BreadcrumbService} from 'ng-breadcrumb';
-
-	@NgModule({
-        imports: [NgBreadcrumbModule],
-        providers: [BreadcrumbService]
+        imports: [NgBreadcrumbModule]
     })
     export class AppModule {
         ...
@@ -101,6 +89,6 @@ Hide certain routes (paths) from the breadcrumb trail using an exact url or rege
 - update the `CHANGELOG.md` with all changes regarding the new release
 - update the release version in the `package.json`
 - push the changes
-- build the project locally with `npm run build`
-- run `npm publish --access public`
+- build the project locally with `npm run release`
+- run `npm publish dist`
 - draft a new release at `Github` with the contents of the `CHANGELOG.md` file

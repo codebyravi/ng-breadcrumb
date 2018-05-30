@@ -19,7 +19,7 @@ import { NgBreadcrumbModule } from './components/breadcrumb/breadcrumb.module';
   imports: [
     BrowserModule,
     routingModule,
-    NgBreadcrumbModule.forRoot()
+    NgBreadcrumbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
