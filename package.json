@@ -1,6 +1,6 @@
 {
   "name": "ng-breadcrumb",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "transpile": "ngc",
@@ -8,7 +8,7 @@
     "minify": "uglifyjs dist/bundles/breadcrumb.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/breadcrumb.umd.min.js",
     "build": "npm run transpile && npm run package && npm run minify"
   },
-  "private": true,
+  "main": "dist/index.js",
   "dependencies": {
     "@angular/animations": "^6.0.3",
     "@angular/cli": "6.0.7",
