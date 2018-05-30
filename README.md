@@ -15,6 +15,7 @@ for each matching level, otherwise it will show the last url fragment.
 Optionally uses bootstrap.css (v 3.x.x) for styling of some elements (although the component is fully functional without it and there is a flag to turn off the dependency).
 
 ## Install
+[![npm package](https://nodei.co/npm/ng-breadcrumb.png?compact=true)](https://www.npmjs.com/package/ng-breadcrumb)
 Install the module via npm:
 
     npm install ng-breadcrumb --save
