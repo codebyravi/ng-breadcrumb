@@ -16,9 +16,8 @@ Optionally uses bootstrap.css (v 3.x.x) for styling of some elements (although t
 
 ## Install
 [![npm package](https://nodei.co/npm/ng-breadcrumb.png?compact=true)](https://www.npmjs.com/package/ng-breadcrumb)
-Install the module via npm:
-
-    npm install ng-breadcrumb --save
+ - Install the module via npm:
+   - `npm install ng-breadcrumb --save`
 
 ## Usage
 Import the this module into your module using forRoot()
