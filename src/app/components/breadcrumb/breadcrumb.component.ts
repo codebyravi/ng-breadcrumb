@@ -38,6 +38,11 @@ export class BreadcrumbComponent implements OnInit, OnChanges {
             this._urls.unshift(this.prefix);
         }
 
+        if (this.router.navigated) {
+            this._urls.length = 0; //Fastest way to clear out array
+            this.generateBreadcrumbTrail(this.router.routerState.snapshot.url);
+        }
+
         this._routerSubscription = this.router.events.subscribe((navigationEnd:NavigationEnd) => {
 
            if (navigationEnd instanceof NavigationEnd) {
