@@ -42,7 +42,7 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
-    "ng-packagr": "4.0.0-rc.0",
+    "ng-packagr": "10.1.1",
     "protractor": "5.3.2",
     "rollup": "^0.55.3",
     "rxjs": "^6.2.0",
